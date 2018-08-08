@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>fireMessage</title>
+
+  <!--Go to https://console.firebase.google.com-->
+  <!--Sign in and add a project "fireMessage"-->
+  <!--PASTE SNIPPET HERE-->
+ 
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+<script>
+// Initialize Firebase
+var config = {
+  apiKey: "AIzaSyCW4QnYxFjLJYMwORiytfqtjHZIsN9bUGc",
+  authDomain: "firemesssage-cfe82.firebaseapp.com",
+  databaseURL: "https://firemesssage-cfe82.firebaseio.com",
+  projectId: "firemesssage-cfe82",
+  storageBucket: "",
+  messagingSenderId: "16299113303"
+};
+firebase.initializeApp(config);
+</script>
+
+  <!--custom files-->
+  <script src="main.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <!--Add your name-->
+  <!-- <h1>James's Messaging App</h1> -->
+
+  <!--This div will be populated with messages-->
+  <div id="allMessages">
+      <h1>Welcome to DogBook. If you enjoy any of the photos use the save code to save the image.</h1>
+
+ 
+  <!--For user to input messages-->
+  <div class="userContainer">
+     
+       <div class="Input">
+           <p id="firstname"></p>
+       </div>
+
+       <div class="Input">
+           <img src="" id = "image">
+       </div>
+         
+       <div class="inputContainer">
+           <label for="">Save Code</label>
+           <input type="text" id="numberSave">
+       </div>
+   
+       <button id ="Openbutton"> Open</button>
+       <button id="saveButton">Save</button>
+       <button id="randomuser"> Randomuser</button>
+  </div>
+</div>
+
+</body>
+</html>
