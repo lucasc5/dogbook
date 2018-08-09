@@ -1,0 +1,38 @@
+#allMessages{
+    text-shadow: 2px 2px #0a0505;
+    font-family: 'Monoton', cursive;
+    text-align: center;
+     color:rgb(0, 73, 141);
+     font-size: 40px;
+     padding-top: 1px;
+     padding-left:1px;
+     margin-top: 2%;
+    
+}
+body{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRH929D6kGNDQoNfRLae8agpPVXnUPtQXY4AN4EtR85gca9xZApQ)
+    no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ 
+ }
+ .userContainer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+ }
+ #firstname{
+    font-weight: bold;
+}
+ .inputContainer{
+    font-weight: bold;
+}
+ #image{
+  
+    background:rgb(7, 75, 121);
+        padding:12px;
+        border:1px solid rgb(22, 12, 12); 
+ }
